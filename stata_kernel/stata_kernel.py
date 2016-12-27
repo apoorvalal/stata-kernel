@@ -21,7 +21,7 @@ class StataKernel(Kernel):
     language_info = {
         'name': 'stata',
         'mimetype': 'text/x-stata',
-        'file_extension': 'do',
+        'file_extension': '.do',
     }
     
     log_address = os.path.join(tempfile.gettempdir(), 'stata_kernel_log.txt')
